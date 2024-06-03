@@ -19,16 +19,18 @@ namespace ProductManagement.Infrastructure.Repositories
 
         public async Task<Produto> GetByIdAsync(int id)
         {
-            return await _context.Produtos.FindAsync(id);
+            return await _context.Produtos.FirstOrDefaultAsync(p => p.Id == id && p.Situacao);
         }
 
         public async Task<IEnumerable<Produto>> ListAsync(string descricao = null, int page = 1, int pageSize = 10)
         {
             var query = _context.Produtos.AsQueryable();
 
+            query = query.Where(p => p.Situacao == true);
+
             if (!string.IsNullOrWhiteSpace(descricao))
             {
-                query = query.Where(p => p.Descricao.Contains(descricao));
+                query = query.Where(p => p.Descricao.Contains(descricao) && p.Situacao == true);
             }
 
             return await query.Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();

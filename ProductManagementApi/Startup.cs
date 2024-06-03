@@ -34,7 +34,6 @@ namespace ProductManagementApi
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
-            var conn = Configuration.GetConnectionString("DefaultConnection");
             services.AddControllers();
             services.AddInfrastructure(Configuration);
             services.AddAutoMapper(typeof(Startup));
