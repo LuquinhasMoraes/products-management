@@ -73,14 +73,14 @@ namespace ProductManagement.Tests.Services
             var produtoDto = new ProdutoDTO { Id = 1, Descricao = "Produto 1", DataFabricacao = DateTime.Now, DataValidade = DateTime.Now.AddDays(-1), Situacao = true, FornecedorId = 1 };
 
             // Act & Assert
-            await Assert.ThrowsAsync<Exception>(() => _produtoService.AddAsync(produtoDto));
+            await Assert.ThrowsAsync<ArgumentException>(() => _produtoService.AddAsync(produtoDto));
         }
 
         [Fact]
         public async Task UpdateAsync_ThrowsException_OndeDataFabricacaoMaiorOuIgualDataValidade()
         {
             var produtoDto = new ProdutoDTO { Id = 1, Descricao = "Produto Teste", DataFabricacao = DateTime.Now, DataValidade = DateTime.Now.AddDays(-1) };
-            await Assert.ThrowsAsync<Exception>(() => _produtoService.UpdateAsync(produtoDto));
+            await Assert.ThrowsAsync<ArgumentException>(() => _produtoService.UpdateAsync(produtoDto));
         }
 
         [Fact]

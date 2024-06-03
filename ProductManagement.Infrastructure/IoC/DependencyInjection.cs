@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ProductManagement.Application.Interfaces;
 using ProductManagement.Application.Mapping;
 using ProductManagement.Application.Services;
 using ProductManagement.Domain.Repositories;
@@ -21,7 +22,7 @@ namespace ProductManagement.Infrastructure.IoC
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<FornecedorService>();
-            services.AddScoped<ProdutoService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
 
             services.AddAutoMapper(typeof(MapperProfile));
 

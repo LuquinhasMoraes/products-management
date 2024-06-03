@@ -158,3 +158,5 @@ C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Tests\obj\Debug\net5
 C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Tests\obj\Debug\net5.0\ProductManagement.Tests.pdb
 C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Tests\obj\Debug\net5.0\ProductManagement.Tests.genruntimeconfig.cache
 C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Tests\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll

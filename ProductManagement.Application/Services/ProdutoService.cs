@@ -1,5 +1,6 @@
 using AutoMapper;
 using ProductManagement.Application.DTOs;
+using ProductManagement.Application.Interfaces;
 using ProductManagement.Domain.Entities;
 using ProductManagement.Domain.Repositories;
 using System;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProductManagement.Application.Services
 {
-    public class ProdutoService
+    public class ProdutoService : IProdutoService
     {
         private readonly IProdutoRepository _produtoRepository;
         private readonly IMapper _mapper;

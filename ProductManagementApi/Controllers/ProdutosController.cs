@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ProductManagement.Application.DTOs;
+using ProductManagement.Application.Interfaces;
 using ProductManagement.Application.Services;
 using System.Threading.Tasks;
 
@@ -7,9 +8,9 @@ using System.Threading.Tasks;
 [Route("api/[controller]")]
 public class ProdutosController : ControllerBase
 {
-    private readonly ProdutoService _produtoService;
+    private readonly IProdutoService _produtoService;
 
-    public ProdutosController(ProdutoService produtoService)
+    public ProdutosController(IProdutoService produtoService)
     {
         _produtoService = produtoService;
     }
