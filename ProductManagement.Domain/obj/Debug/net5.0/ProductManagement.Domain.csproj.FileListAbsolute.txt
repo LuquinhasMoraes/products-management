@@ -1,0 +1,12 @@
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ProductManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ProductManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ProductManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ProductManagement.Domain.AssemblyInfo.cs
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ProductManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\bin\Debug\net5.0\ProductManagement.Domain.deps.json
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\bin\Debug\net5.0\ProductManagement.Domain.dll
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\bin\Debug\net5.0\ref\ProductManagement.Domain.dll
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\bin\Debug\net5.0\ProductManagement.Domain.pdb
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ProductManagement.Domain.dll
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ref\ProductManagement.Domain.dll
+C:\Users\Lucas\Projects\ProductsChallenge\ProductManagement.Domain\obj\Debug\net5.0\ProductManagement.Domain.pdb
